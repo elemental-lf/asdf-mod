@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+shellcheck bin/* lib/* scripts/*
+shfmt --diff ./**/*
